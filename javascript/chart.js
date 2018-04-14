@@ -2,7 +2,7 @@ var main = document.getElementById('mainChart');
 var dailyTraffic = document.getElementById('dTrafficChart');
 var mobileUsers = document.getElementById('mUsersChart');
 var timeButtons = document.querySelector('.time-buttons');
-var button = document.querySelectorAll('.time-buttons button')
+var button = document.querySelectorAll('.time-buttons button');
 
 function monthly () {
   button[3].focus();
