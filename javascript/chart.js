@@ -81,7 +81,7 @@ var myBarChart = new Chart(dailyTraffic, {
     data: {
       labels: ["S","M","T","W","T","F","S"],
       datasets: [{
-        data: ["90","","120","115","125","130","135"],
+        data: ["90","110","120","115","125","130","135"],
         backgroundColor: ["#C7F8FF","#7AEEFF","#62BECC","#5FB8C6","#026F7F","#026270","#305D63"]
       }]
     },
