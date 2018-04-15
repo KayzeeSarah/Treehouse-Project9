@@ -90,10 +90,10 @@ const settingButtons = document.querySelector(".setting-buttons");
     }, 2000);
    if(e.target.textContent == "Save"){
      save();
-     settings.textContent = "*settings saved";
+     settings.textContent = "Saved!";
   } else if(e.target.textContent == "Cancel"){
      load();
-     settings.textContent = "*canceled";
+     settings.textContent = "Cancelled!";
   }
 
  });
@@ -111,11 +111,11 @@ sendButton.addEventListener('click',function (e) {
       formBox.removeChild(sent);
     }, 2000);
     if (userName.indexOf(input.value) !=-1 && textArea.value != "") {
-      sent.textContent = "*message sent";
+      sent.textContent = "Sent!";
    } else if (userName.indexOf(input.value) ==-1) {
-     sent.textContent = "*user does not exist";
+     sent.textContent = "User not found.";
    } else if (textArea.value == "") {
-     sent.textContent = "*please enter your message before hitting the 'send' button";
+     sent.textContent = "Don't leave the message box empty!";
    }
   }
 });
